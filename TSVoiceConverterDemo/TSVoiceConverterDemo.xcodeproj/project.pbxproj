@@ -10,37 +10,7 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>14A3C580D00BB4F9A378F7FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TSVoiceConverterDemo.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-TSVoiceConverterDemo/Pods-TSVoiceConverterDemo.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>220A49336768082468AD56DF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TSVoiceConverterDemo.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-TSVoiceConverterDemo/Pods-TSVoiceConverterDemo.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B64FBFA3481F81C2DED8210</key>
+		<key>2CDD9AE84E5EE1A314325E60</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
@@ -51,7 +21,7 @@
 			<key>isa</key>
 			<string>PBXShellScriptBuildPhase</string>
 			<key>name</key>
-			<string>Embed Pods Frameworks</string>
+			<string>Copy Pods Resources</string>
 			<key>outputPaths</key>
 			<array/>
 			<key>runOnlyForDeploymentPostprocessing</key>
@@ -59,12 +29,46 @@
 			<key>shellPath</key>
 			<string>/bin/sh</string>
 			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TSVoiceConverterDemo/Pods-TSVoiceConverterDemo-frameworks.sh"
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TSVoiceConverterDemo/Pods-TSVoiceConverterDemo-resources.sh"
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>713756850EE9F454AE9665F6</key>
+		<key>3FF5CA387C7E4CF4FA01B05B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EC590838A9770DBBBE445197</string>
+				<string>F13298023D57137E44B63FE9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>574E3BC45F51FFA7DD58D8CD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>85FC986D06AAA9CA4B7A0606</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>722BEC127BF26175BC9C1F90</key>
+		<dict>
+			<key>fileRef</key>
+			<string>85FC986D06AAA9CA4B7A0606</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>85FC986D06AAA9CA4B7A0606</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.framework</string>
@@ -77,40 +81,6 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>72EDEDF472E4D7C483578CA8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>713756850EE9F454AE9665F6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>848DACA2AAA8A0521E70CACF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>713756850EE9F454AE9665F6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A2CC73CE2D3D2C141A3E5216</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>220A49336768082468AD56DF</string>
-				<string>14A3C580D00BB4F9A378F7FE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>AE2F1BC61CAAE26C00D77534</key>
 		<dict>
 			<key>children</key>
@@ -118,8 +88,8 @@
 				<string>AE2F1BD11CAAE26C00D77534</string>
 				<string>AE2F1BE61CAAE26C00D77534</string>
 				<string>AE2F1BD01CAAE26C00D77534</string>
-				<string>A2CC73CE2D3D2C141A3E5216</string>
-				<string>72EDEDF472E4D7C483578CA8</string>
+				<string>3FF5CA387C7E4CF4FA01B05B</string>
+				<string>574E3BC45F51FFA7DD58D8CD</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -217,7 +187,7 @@
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>848DACA2AAA8A0521E70CACF</string>
+				<string>722BEC127BF26175BC9C1F90</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -247,12 +217,12 @@
 			<string>AE2F1BEC1CAAE26C00D77534</string>
 			<key>buildPhases</key>
 			<array>
-				<string>FC571984B2538D81787E4845</string>
+				<string>BBEB98027EB072E3621AAD04</string>
 				<string>AE2F1BCB1CAAE26C00D77534</string>
 				<string>AE2F1BCC1CAAE26C00D77534</string>
 				<string>AE2F1BCD1CAAE26C00D77534</string>
-				<string>3B64FBFA3481F81C2DED8210</string>
-				<string>E50CD62D7146AFAFE09FEE07</string>
+				<string>C75098B29D083452837D8DA9</string>
+				<string>2CDD9AE84E5EE1A314325E60</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -763,7 +733,7 @@
 		<key>AE2F1BED1CAAE26C00D77534</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>220A49336768082468AD56DF</string>
+			<string>EC590838A9770DBBBE445197</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
@@ -785,7 +755,7 @@
 		<key>AE2F1BEE1CAAE26C00D77534</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>14A3C580D00BB4F9A378F7FE</string>
+			<string>F13298023D57137E44B63FE9</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
@@ -898,31 +868,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>E50CD62D7146AFAFE09FEE07</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TSVoiceConverterDemo/Pods-TSVoiceConverterDemo-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>FC571984B2538D81787E4845</key>
+		<key>BBEB98027EB072E3621AAD04</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
@@ -951,6 +897,60 @@ fi
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
+		</dict>
+		<key>C75098B29D083452837D8DA9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-TSVoiceConverterDemo/Pods-TSVoiceConverterDemo-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>EC590838A9770DBBBE445197</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-TSVoiceConverterDemo.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-TSVoiceConverterDemo/Pods-TSVoiceConverterDemo.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F13298023D57137E44B63FE9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-TSVoiceConverterDemo.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-TSVoiceConverterDemo/Pods-TSVoiceConverterDemo.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

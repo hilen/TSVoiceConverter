@@ -10,23 +10,10 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>0203DA64B8607665709ACD6825B08239</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TSVoiceConverter-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>02E02B78E8451AB944CE9F41E5B1906E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CC2D1B885F73417AC6545838D8A946B0</string>
+			<string>044189DA8F33FEFDD9FF158C9CF715B4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -57,6 +44,19 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>044189DA8F33FEFDD9FF158C9CF715B4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>if_rom.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>05AABB49603E3AF09C3041043CC8B8AB</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -72,44 +72,13 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>070176CB7E11E852350B07161AF37580</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libopencore-amrwb.la</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0B841AB7F07F0B9B414AB4643C81EAD0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9E712F851B7A9FFA6FF873D383FB2781</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0C3C8149145B16792FDF782D96CBFD43</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TSVoiceConverter-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>0D4F7FEAF5BF4C5FAFE18CA7B0969CED</key>
 		<dict>
 			<key>buildConfigurationList</key>
 			<string>EF574D7687BB5C73B688BEBB81479798</string>
 			<key>buildPhases</key>
 			<array>
-				<string>7EABBCD740A8EA0FE088CAE793844B05</string>
+				<string>A8443CA42A9D5450E24517578F270A11</string>
 				<string>526D494DAB1DC1064AEFE6D8E95BD048</string>
 				<string>031FB8D7E8296DA16844F05DA172D399</string>
 			</array>
@@ -128,43 +97,29 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>0F74A53998113E08F1DF9AEE3DFBE65F</key>
+		<key>0D5B60FE219DF27D92493AC7FF38F055</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>libopencore-amrwb.a.arm64</string>
+			<string>interf_enc.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0FAA4DA96F2C22231F5BF58078D04707</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D724CD5198850544B660E977332DB47</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1171028127E19F39075D5D5A7699CFC4</key>
+		<key>0F6C12F2BF06DB96605D92C72212A852</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>libopencore-amrnb.la</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>12EE9C7E9DADA4D2B1387EBE63132CFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libopencore-amrnb.a.armv7</string>
+			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -181,21 +136,23 @@
 			<key>remoteInfo</key>
 			<string>TSVoiceConverter</string>
 		</dict>
-		<key>1D724CD5198850544B660E977332DB47</key>
+		<key>15663F57FFD0B2DE96D4271093AC8B4A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
 			<key>path</key>
-			<string>libopencore-amrnb.a.i386</string>
+			<string>TSVoiceConverter.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1E43EBA1455A3CFA0E3CB564DF46105A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D693A75B888D42215543B88CF02D0F46</string>
+			<string>9C2A2A1E736C09FD0C4F711384948EB6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -206,41 +163,10 @@
 				</array>
 			</dict>
 		</dict>
-		<key>21C2A1BA632B2D669006A733DCE478EA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libopencore-amrnb.a.armv7s</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>22090FE328BDF9B00318FCA95969EA48</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4EDD1B7BF45A4ECF8E380C226FEB5ABC</string>
-				<string>C0A3502B935986C1891E77889F6E4ECC</string>
-				<string>46F940692F620C87646FF9523E641F0F</string>
-				<string>F8A2F03278B2204BD4ECEB9767BF70DC</string>
-				<string>7FFA1829D6ECB26F1B650F0E7690C5E6</string>
-				<string>A6B4538B0B4DA2845037D53041338F00</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Sources</string>
-			<key>path</key>
-			<string>Sources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>24024FEB2750514DA3AF546FA518DA5F</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>44E80269DD9B989FBB723F6B0F6EBF67</string>
+			<string>725CAF07F499669EC5A24C123323483B</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -298,7 +224,7 @@
 		<key>2458B9BE39223660ECEC7E568EFF2E14</key>
 		<dict>
 			<key>fileRef</key>
-			<string>625FC878AC62A153752D4697A3C4A431</string>
+			<string>6A933950604FF0D3562C902739C60421</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -309,18 +235,12 @@
 				</array>
 			</dict>
 		</dict>
-		<key>258DF5427295212A85A0912A0F52A913</key>
+		<key>249AABC4D01B6A37199B6D33A4DA35C4</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>BE4773F5489E49D01C246DA590020DEC</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>2699D77D3B203485489B9ACC2968690E</key>
 		<dict>
@@ -332,6 +252,21 @@
 			<string>0D4F7FEAF5BF4C5FAFE18CA7B0969CED</string>
 			<key>targetProxy</key>
 			<string>14483B62C16793E80E1DF7B1611DEC62</string>
+		</dict>
+		<key>29024AC2B5B0DA6602D5DC168CF16B63</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libopencore-amrwb.a</string>
+			<key>path</key>
+			<string>Sources/lib/libopencore-amrwb.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2B389FAB51F6EEA43F72CA7BDC8E8E28</key>
 		<dict>
@@ -406,17 +341,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>2D8E2E496E6452F7F180605BB1C66A8A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TSVoiceConverter.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -430,17 +354,6 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
-		</dict>
-		<key>3003A20BB3787A3E2E3237B49A8CD19D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>amrFileCodec.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>3421A50250FE2FE19134A96675F965C7</key>
 		<dict>
@@ -466,17 +379,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>354A915C693627E5F87A713ADDC1CB9D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7A120B930DDFFBDA323D3212924F9AB1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>35691D746032A68BAACF35FC0E06E783</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C0A3502B935986C1891E77889F6E4ECC</string>
+			<string>6507235459A9A0FE3A0623E44109A611</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -487,14 +393,16 @@
 				</array>
 			</dict>
 		</dict>
-		<key>3D39F4F45F374FB308C4C00870C68B54</key>
+		<key>36B92EED4B86082B717B539D0149D367</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>opencore-amrwb.pc</string>
+			<string>dec_if.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -511,37 +419,6 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>44E80269DD9B989FBB723F6B0F6EBF67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>TSVoiceConverter.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>46F940692F620C87646FF9523E641F0F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>625FC878AC62A153752D4697A3C4A431</string>
-				<string>3003A20BB3787A3E2E3237B49A8CD19D</string>
-				<string>8799FA50E55F9DA653D0D70ADA03E555</string>
-				<string>EBDD5042DD68019E51D89AF373B48476</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>amrwapper</string>
-			<key>path</key>
-			<string>amrwapper</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>4B7A391D4856313F537A5EB5409AD422</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -552,24 +429,6 @@
 			<string>text.script.sh</string>
 			<key>path</key>
 			<string>Pods-TSVoiceConverterDemo-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CBE2038D2419FEE3904C2AFB913C56E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0203DA64B8607665709ACD6825B08239</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4D84A49DDE08011B5E9B718AB4CF25A1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libopencore-amrnb.a.arm64</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -586,18 +445,17 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>4EDD1B7BF45A4ECF8E380C226FEB5ABC</key>
+		<key>50C1D72DEE1089EAA353953CABAA0898</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>87E00308F1FA2A5804A1A38DDDC160A0</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>TSVoiceConverter.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fno-objc-arc</string>
+			</dict>
 		</dict>
 		<key>512D25F0C10B5E141E47605E5CC78E21</key>
 		<dict>
@@ -619,24 +477,38 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>56DEF80CD9D8F2661047405823DE8303</key>
+		<key>546ABD4747324159682BFCDC5292DAA3</key>
 		<dict>
-			<key>fileRef</key>
-			<string>12EE9C7E9DADA4D2B1387EBE63132CFA</string>
+			<key>children</key>
+			<array>
+				<string>6A933950604FF0D3562C902739C60421</string>
+				<string>87E00308F1FA2A5804A1A38DDDC160A0</string>
+				<string>830A3F1BFFD879CD2C586C07C8BCDC78</string>
+				<string>F6AB78B2313919CE0393112DAFF820DB</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>amrwapper</string>
+			<key>path</key>
+			<string>amrwapper</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>571D7AD458A9C9BE20F5833BAD4B4B04</key>
+		<key>572EDEC6ACA7AAEEBA12A3E5A7EEBE9C</key>
 		<dict>
-			<key>fileRef</key>
-			<string>4EDD1B7BF45A4ECF8E380C226FEB5ABC</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libopencore-amrnb.a</string>
+			<key>path</key>
+			<string>Sources/lib/libopencore-amrnb.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5A0C6FE968931D888F00C9EC18DDF5BC</key>
 		<dict>
@@ -706,27 +578,7 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>617B1B60034AEF3CEC5412D6163ECF83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>258DF5427295212A85A0912A0F52A913</string>
-				<string>2D8E2E496E6452F7F180605BB1C66A8A</string>
-				<string>44E80269DD9B989FBB723F6B0F6EBF67</string>
-				<string>0203DA64B8607665709ACD6825B08239</string>
-				<string>0C3C8149145B16792FDF782D96CBFD43</string>
-				<string>D693A75B888D42215543B88CF02D0F46</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>TSVoiceConverterDemo/Pods/Target Support Files/TSVoiceConverter</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>625FC878AC62A153752D4697A3C4A431</key>
+		<key>6507235459A9A0FE3A0623E44109A611</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -735,7 +587,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>amrFileCodec.h</string>
+			<string>VoiceConverterHeaders.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -752,6 +604,19 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>6A933950604FF0D3562C902739C60421</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>amrFileCodec.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>6AE72187D15397F3907F3AD8BB43C5B9</key>
 		<dict>
 			<key>fileRef</key>
@@ -766,28 +631,32 @@
 				</array>
 			</dict>
 		</dict>
-		<key>6BFB31110C780D022EC6068D30915E2D</key>
+		<key>703AD189D9997AEC80190140DEDD991A</key>
 		<dict>
-			<key>fileRef</key>
-			<string>0F74A53998113E08F1DF9AEE3DFBE65F</string>
+			<key>children</key>
+			<array>
+				<string>36B92EED4B86082B717B539D0149D367</string>
+				<string>044189DA8F33FEFDD9FF158C9CF715B4</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>opencore-amrwb</string>
+			<key>path</key>
+			<string>opencore-amrwb</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6BFFC07B6281F8C0FA68F2C791E072E8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>21C2A1BA632B2D669006A733DCE478EA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6DBADD2A9501D4598486629D99273845</key>
+		<key>725CAF07F499669EC5A24C123323483B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>libopencore-amrwb.a.armv7s</string>
+			<string>TSVoiceConverter.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -866,45 +735,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>78DF5C32CE6D0CE0447666A7EB3D85AF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libopencore-amrnb.a.x86_64</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>798DCFA989D9C1BAB138718C08CF3659</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>FAA0F474BF7CCD220C38F003E9FE8FBF</string>
+				<string>E6F70819052DEC8F69F21374786D44F1</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79A8050E8852D60C6E475B193A71A531</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3D39F4F45F374FB308C4C00870C68B54</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7A120B930DDFFBDA323D3212924F9AB1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libopencore-amrwb.a.x86_64</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -923,67 +763,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7DBB9049DE1BD549FBF854A1C6A005E1</key>
+		<key>830A3F1BFFD879CD2C586C07C8BCDC78</key>
 		<dict>
-			<key>fileRef</key>
-			<string>9FB487FF3DA95CBFB6228B304E980597</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7EABBCD740A8EA0FE088CAE793844B05</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9F4633C5AFFBDA4749FFA441BCF96DE1</string>
-				<string>7DBB9049DE1BD549FBF854A1C6A005E1</string>
-				<string>FE8BA1AEB3705F5FE0CFD54D6EA4E5FB</string>
-				<string>56DEF80CD9D8F2661047405823DE8303</string>
-				<string>6BFFC07B6281F8C0FA68F2C791E072E8</string>
-				<string>0FAA4DA96F2C22231F5BF58078D04707</string>
-				<string>9E0A25E4EE9FD2FB5C9D0272EE430298</string>
-				<string>D56681BB9531620F16872D5AA4C0E120</string>
-				<string>0B841AB7F07F0B9B414AB4643C81EAD0</string>
-				<string>6BFB31110C780D022EC6068D30915E2D</string>
-				<string>E430B4CFADA98338A18A6E7E22DED910</string>
-				<string>CED832296277345E9D38BB1796E41673</string>
-				<string>8498865F184737D47EC51BD8BE50CE8D</string>
-				<string>354A915C693627E5F87A713ADDC1CB9D</string>
-				<string>8BFDA75A75571FD134CC801E94C353D1</string>
-				<string>EB8EA357B52E8EEA527BCDC92EF361D4</string>
-				<string>79A8050E8852D60C6E475B193A71A531</string>
-				<string>4CBE2038D2419FEE3904C2AFB913C56E</string>
-				<string>571D7AD458A9C9BE20F5833BAD4B4B04</string>
-				<string>94BF65649A3A7E5F6A6FF2EE2E449AAE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7FFA1829D6ECB26F1B650F0E7690C5E6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A8EC79EDA9E7AC91D4A6E27D935487D1</string>
-				<string>C8E6A314FDD1F7E85E5080E724501C0A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>opencore-amrnb</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>opencore-amrnb</string>
+			<string>wav.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8498865F184737D47EC51BD8BE50CE8D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C9FC664A020F37655B0C487755A2CC2C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>860C455AFEFF512C05A3AD0BC96F3DDF</key>
 		<dict>
@@ -1000,32 +791,14 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>8799FA50E55F9DA653D0D70ADA03E555</key>
+		<key>87E00308F1FA2A5804A1A38DDDC160A0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>wav.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>87A5DB850AE2028D29444D85DCD288FB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B8B22229CD0D6A6087E93D96DBC55AAF</string>
-				<string>3D39F4F45F374FB308C4C00870C68B54</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>pkgconfig</string>
-			<key>path</key>
-			<string>pkgconfig</string>
+			<string>amrFileCodec.mm</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1042,10 +815,29 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>8A1DC458C8F9EE55A9F237B0B87307D6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>15663F57FFD0B2DE96D4271093AC8B4A</string>
+				<string>6507235459A9A0FE3A0623E44109A611</string>
+				<string>546ABD4747324159682BFCDC5292DAA3</string>
+				<string>B13E48B236968EB882A32B6888D8F571</string>
+				<string>703AD189D9997AEC80190140DEDD991A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Sources</string>
+			<key>path</key>
+			<string>Sources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>8AEB25C12552CFA966D02F423C0BD4DB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F17CCD93F1E4D66C283A7991E1F570CC</string>
+			<string>36B92EED4B86082B717B539D0149D367</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1056,12 +848,18 @@
 				</array>
 			</dict>
 		</dict>
-		<key>8BFDA75A75571FD134CC801E94C353D1</key>
+		<key>8F7301CFCE99BF688DB339861ECB1FC0</key>
 		<dict>
-			<key>fileRef</key>
-			<string>070176CB7E11E852350B07161AF37580</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>interf_dec.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8FCB76639838E90BFFF4270F4B7D4D3C</key>
 		<dict>
@@ -1070,10 +868,10 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>94BF65649A3A7E5F6A6FF2EE2E449AAE</key>
+		<key>9631A73283BADAC089685247445ED35A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>EBDD5042DD68019E51D89AF373B48476</string>
+			<string>15663F57FFD0B2DE96D4271093AC8B4A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1081,6 +879,19 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-fno-objc-arc</string>
 			</dict>
+		</dict>
+		<key>967A62B919AE4A7BEF8A5A2E78668A62</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TSVoiceConverter-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9A430E6CC7216978716D509F156B1B00</key>
 		<dict>
@@ -1123,6 +934,50 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>9AC8CB7A05DB9D7738DC95B82AED7454</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>TSVoiceConverter.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C0FDCA9336A36D73C6A69A294CD6E4E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0F6C12F2BF06DB96605D92C72212A852</string>
+				<string>9AC8CB7A05DB9D7738DC95B82AED7454</string>
+				<string>725CAF07F499669EC5A24C123323483B</string>
+				<string>BE4773F5489E49D01C246DA590020DEC</string>
+				<string>967A62B919AE4A7BEF8A5A2E78668A62</string>
+				<string>9C2A2A1E736C09FD0C4F711384948EB6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>TSVoiceConverterDemo/Pods/Target Support Files/TSVoiceConverter</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C2A2A1E736C09FD0C4F711384948EB6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TSVoiceConverter-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>9CAD1EB174D3F003576F9A9E22C63A40</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1139,7 +994,7 @@
 		<key>9DB0060298BD38A22F983483601D16B7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C8E6A314FDD1F7E85E5080E724501C0A</string>
+			<string>0D5B60FE219DF27D92493AC7FF38F055</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1150,79 +1005,35 @@
 				</array>
 			</dict>
 		</dict>
-		<key>9E0A25E4EE9FD2FB5C9D0272EE430298</key>
-		<dict>
-			<key>fileRef</key>
-			<string>78DF5C32CE6D0CE0447666A7EB3D85AF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9E712F851B7A9FFA6FF873D383FB2781</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>path</key>
-			<string>libopencore-amrwb.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9F4633C5AFFBDA4749FFA441BCF96DE1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3003A20BB3787A3E2E3237B49A8CD19D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>9FB487FF3DA95CBFB6228B304E980597</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>path</key>
-			<string>libopencore-amrnb.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A6B4538B0B4DA2845037D53041338F00</key>
+		<key>9FFC234D2F9267EA39068A8BD9530A7F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>F17CCD93F1E4D66C283A7991E1F570CC</string>
-				<string>CC2D1B885F73417AC6545838D8A946B0</string>
+				<string>572EDEC6ACA7AAEEBA12A3E5A7EEBE9C</string>
+				<string>29024AC2B5B0DA6602D5DC168CF16B63</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>opencore-amrwb</string>
-			<key>path</key>
-			<string>opencore-amrwb</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A8EC79EDA9E7AC91D4A6E27D935487D1</key>
+		<key>A8443CA42A9D5450E24517578F270A11</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>50C1D72DEE1089EAA353953CABAA0898</string>
+				<string>249AABC4D01B6A37199B6D33A4DA35C4</string>
+				<string>9631A73283BADAC089685247445ED35A</string>
+				<string>E2A1AB1B5060F29F34C41D92E841EC8D</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>interf_dec.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>AA32F49458887375CEEA809CE110A9A7</key>
 		<dict>
@@ -1250,6 +1061,22 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>B13E48B236968EB882A32B6888D8F571</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8F7301CFCE99BF688DB339861ECB1FC0</string>
+				<string>0D5B60FE219DF27D92493AC7FF38F055</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>opencore-amrnb</string>
+			<key>path</key>
+			<string>opencore-amrnb</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>B50167B3C147B9D88425A77EC745C1B1</key>
 		<dict>
 			<key>children</key>
@@ -1260,17 +1087,6 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B8B22229CD0D6A6087E93D96DBC55AAF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>opencore-amrnb.pc</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1304,6 +1120,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>BE4773F5489E49D01C246DA590020DEC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TSVoiceConverter-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
 		<dict>
 			<key>children</key>
@@ -1314,19 +1143,6 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0A3502B935986C1891E77889F6E4ECC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>VoiceConverterHeaders.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1346,7 +1162,7 @@
 		<key>C1F16B812B42E41058A2A3EB5A6D1118</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A8EC79EDA9E7AC91D4A6E27D935487D1</string>
+			<string>8F7301CFCE99BF688DB339861ECB1FC0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1368,19 +1184,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C8E6A314FDD1F7E85E5080E724501C0A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>interf_enc.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>C933F282AB0D52142CB633D2F6E55F52</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -1394,28 +1197,6 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
-		</dict>
-		<key>C9C4ACDF089A4B3BB898828EC470C4B0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libopencore-amrwb.a.armv7</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C9FC664A020F37655B0C487755A2CC2C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libopencore-amrwb.a.i386</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>CBED570729AC9BD1ECD011A12FD5B578</key>
 		<dict>
@@ -1481,30 +1262,10 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>CC2D1B885F73417AC6545838D8A946B0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>if_rom.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CED832296277345E9D38BB1796E41673</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6DBADD2A9501D4598486629D99273845</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>CF22378C63C60B55AA53F09217D3275E</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>44E80269DD9B989FBB723F6B0F6EBF67</string>
+			<string>725CAF07F499669EC5A24C123323483B</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1560,7 +1321,7 @@
 		<key>D2E7CFE9700674C17F25C864E73E176F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8799FA50E55F9DA653D0D70ADA03E555</string>
+			<string>830A3F1BFFD879CD2C586C07C8BCDC78</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1610,26 +1371,6 @@
 				<string>0D4F7FEAF5BF4C5FAFE18CA7B0969CED</string>
 			</array>
 		</dict>
-		<key>D56681BB9531620F16872D5AA4C0E120</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1171028127E19F39075D5D5A7699CFC4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D693A75B888D42215543B88CF02D0F46</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TSVoiceConverter-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>DEBA9E2BEFDFE242167220BC68D98140</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1643,28 +1384,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E430B4CFADA98338A18A6E7E22DED910</key>
+		<key>E2A1AB1B5060F29F34C41D92E841EC8D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9C4ACDF089A4B3BB898828EC470C4B0</string>
+			<string>F6AB78B2313919CE0393112DAFF820DB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fno-objc-arc</string>
+			</dict>
 		</dict>
-		<key>EB8EA357B52E8EEA527BCDC92EF361D4</key>
+		<key>E6F70819052DEC8F69F21374786D44F1</key>
 		<dict>
-			<key>fileRef</key>
-			<string>B8B22229CD0D6A6087E93D96DBC55AAF</string>
+			<key>children</key>
+			<array>
+				<string>9FFC234D2F9267EA39068A8BD9530A7F</string>
+				<string>8A1DC458C8F9EE55A9F237B0B87307D6</string>
+				<string>9C0FDCA9336A36D73C6A69A294CD6E4E</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EBDD5042DD68019E51D89AF373B48476</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TSVoiceConverter</string>
 			<key>path</key>
-			<string>wav.mm</string>
+			<string>../..</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1695,27 +1440,14 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F17CCD93F1E4D66C283A7991E1F570CC</key>
+		<key>F6AB78B2313919CE0393112DAFF820DB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>dec_if.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F6D78998B66D51F9E6E5F393E93FFC15</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
+			<string>wav.mm</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1732,63 +1464,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F8A2F03278B2204BD4ECEB9767BF70DC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9FB487FF3DA95CBFB6228B304E980597</string>
-				<string>1171028127E19F39075D5D5A7699CFC4</string>
-				<string>4D84A49DDE08011B5E9B718AB4CF25A1</string>
-				<string>12EE9C7E9DADA4D2B1387EBE63132CFA</string>
-				<string>21C2A1BA632B2D669006A733DCE478EA</string>
-				<string>1D724CD5198850544B660E977332DB47</string>
-				<string>78DF5C32CE6D0CE0447666A7EB3D85AF</string>
-				<string>9E712F851B7A9FFA6FF873D383FB2781</string>
-				<string>070176CB7E11E852350B07161AF37580</string>
-				<string>0F74A53998113E08F1DF9AEE3DFBE65F</string>
-				<string>C9C4ACDF089A4B3BB898828EC470C4B0</string>
-				<string>6DBADD2A9501D4598486629D99273845</string>
-				<string>C9FC664A020F37655B0C487755A2CC2C</string>
-				<string>7A120B930DDFFBDA323D3212924F9AB1</string>
-				<string>87A5DB850AE2028D29444D85DCD288FB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>lib</string>
-			<key>path</key>
-			<string>lib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAA0F474BF7CCD220C38F003E9FE8FBF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F6D78998B66D51F9E6E5F393E93FFC15</string>
-				<string>22090FE328BDF9B00318FCA95969EA48</string>
-				<string>617B1B60034AEF3CEC5412D6163ECF83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TSVoiceConverter</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>FE14395B49E4AB7B21809A9120B42C8F</key>
 		<dict>
 			<key>fileRef</key>
 			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FE8BA1AEB3705F5FE0CFD54D6EA4E5FB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D84A49DDE08011B5E9B718AB4CF25A1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
