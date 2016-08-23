@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TSVoiceConverter"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "A Swift VoiceConverter between AMR format and WAV format"
   s.homepage         = "https://github.com/hilen/TSVoiceConverter"
   s.license          = 'MIT'

@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'TSVoiceConverterDemo', :exclusive => true do
+target 'TSVoiceConverterDemo' do
   pod 'TSVoiceConverter', :path => '../'
 end
