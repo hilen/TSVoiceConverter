@@ -1,5 +1,5 @@
 PODS:
-  - TSVoiceConverter (0.1.1)
+  - TSVoiceConverter (0.1.2)
 
 DEPENDENCIES:
   - TSVoiceConverter (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TSVoiceConverter: d96960ce7cc07e455e69f30e092367a424d3c6a0
+  TSVoiceConverter: a671f27d61e0f7bf442a8146fab1358343ce32fd
 
 COCOAPODS: 0.39.0

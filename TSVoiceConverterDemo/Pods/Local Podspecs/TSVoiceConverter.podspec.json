@@ -1,6 +1,6 @@
 {
   "name": "TSVoiceConverter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A Swift VoiceConverter between AMR format and WAV format",
   "homepage": "https://github.com/hilen/TSVoiceConverter",
   "license": "MIT",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/hilen/TSVoiceConverter.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
