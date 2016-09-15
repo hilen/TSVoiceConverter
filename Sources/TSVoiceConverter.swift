@@ -1,6 +1,6 @@
 //
 //  TSVoiceConverter.swift
-//  TSWeChat
+//  TSVoiceConverter
 //
 //  Created by Hilen on 1/5/16.
 //  Copyright © 2016 Hilen. All rights reserved.
@@ -8,67 +8,65 @@
 
 import Foundation
 
-public class TSVoiceConverter {
+open class TSVoiceConverter {
     /**
-     将 amr 文件转换成 wav 文件
+    Convert AMR file to WAV file
 
-     - parameter amrFilePath: amr 文件路径
-     - parameter wavSavePath: wav 的保存文件路径
-
-     - returns: 是否转换成功
-     */
-    public static func convertAmrToWav(amrFilePath: String, wavSavePath: String) -> Bool {
-        let amrCString = amrFilePath.cStringUsingEncoding(NSUTF8StringEncoding)
-        let wavCString = wavSavePath.cStringUsingEncoding(NSUTF8StringEncoding)
-        let decode = DecodeAMRFileToWAVEFile(amrCString!, wavCString!)
+     - parameter amrFilePath: Your AMR file path
+     - parameter wavSavePath: Your WAV save path
+ 
+     - returns: Convert success?
+    */
+    open static func convertAmrToWav(_ amrFilePath: String, wavSavePath: String) -> Bool {
+        guard let amrCString = amrFilePath.cString(using: String.Encoding.utf8) else { return false }
+        guard let wavCString = wavSavePath.cString(using: String.Encoding.utf8) else { return false }
+        let decode = DecodeAMRFileToWAVEFile(amrCString, wavCString)
         return Bool(decode)
     }
 
+    /** 
+    Convert WAV file to AMR file
+ 
+     - parameter wavSavePath: Your WAV file path
+     - parameter amrFilePath: Your AMR save path
 
-    /**
-     将 wav 文件转换成 amr 文件
-
-     - parameter wavFilePath: wav 文件路径
-     - parameter amrSavePath: amr 的保存文件路径
-
-     - returns: 是否转换成功
-     */
-    public static func convertWavToAmr(wavFilePath: String, amrSavePath: String) -> Bool {
-        let wavCString = wavFilePath.cStringUsingEncoding(NSUTF8StringEncoding)
-        let amrCString = amrSavePath.cStringUsingEncoding(NSUTF8StringEncoding)
-        let encode = EncodeWAVEFileToAMRFile(wavCString!, amrCString!, 1, 16)
+     - returns: Convert success?
+    */
+    open static func convertWavToAmr(_ wavFilePath: String, amrSavePath: String) -> Bool {
+        guard let wavCString = wavFilePath.cString(using: String.Encoding.utf8) else { return false }
+        guard let amrCString = amrSavePath.cString(using: String.Encoding.utf8) else { return false }
+        let encode = EncodeWAVEFileToAMRFile(wavCString, amrCString, 1, 16)
         return Bool(encode)
     }
 
-
     /**
-     是否是 amr 文件
-
-     - parameter filePath: amr 文件路径
-
-     - returns: Bool
-     */
-    public static func isAMRFile(filePath: String) -> Bool {
-        let result = String.fromCString(filePath)!
+    Detect whether the file is AMR type
+ 
+     - parameter filePath: The file path
+ 
+     - returns: True of false
+    */
+    open static func isAMRFile(_ filePath: String) -> Bool {
+        guard let result = String.init(filePath) else { return false }
         return isAMRFile(result)
     }
 
     /**
-     是否是 mp3 文件
-
-     - parameter filePath: mp3 文件路径
-
-     - returns: Bool
-     */
-    public static func isMP3File(filePath: String) -> Bool {
-        let result = String.fromCString(filePath)!
+    Detect whether the file is MP3 type
+ 
+     - parameter filePath: The file path
+ 
+     - returns: True of false
+    */
+    open static func isMP3File(_ filePath: String) -> Bool {
+        guard let result = String.init(filePath) else { return false }
         return isMP3File(result)
     }
 }
 
 
 private extension Bool {
-    init<T : IntegerType>(_ integer: T){
+    init<T : Integer>(_ integer: T){
         self.init(integer != 0)
     }
 }

@@ -11,19 +11,19 @@ import TSVoiceConverter
 
 let kAudioFileTypeWav = "wav"
 let kAudioFileTypeAmr = "amr"
-private let kAmrRecordFolder = "ChatAudioAmrRecord"   //存 amr 的文件目录名
-private let kWavRecordFolder = "ChatAudioWavRecord"  //存 wav 的文件目录名
+private let kAmrRecordFolder = "ChatAudioAmrRecord"
+private let kWavRecordFolder = "ChatAudioWavRecord"
 
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let amrPath = NSBundle.mainBundle().pathForResource("hello", ofType: "amr")
-        let wavPath = NSBundle.mainBundle().pathForResource("count", ofType: "wav")
+        let amrPath = Bundle.main.path(forResource: "hello", ofType: "amr")
+        let wavPath = Bundle.main.path(forResource: "count", ofType: "wav")
 
-        let amrTargetPath = AudioFolderManager.amrPathWithName("test_amr").path!
-        let wavTargetPath = AudioFolderManager.wavPathWithName("test_wav").path!
+        let amrTargetPath = AudioFolderManager.amrPathWithName("test_amr").path
+        let wavTargetPath = AudioFolderManager.wavPathWithName("test_wav").path
         
         if TSVoiceConverter.convertAmrToWav(amrPath!, wavSavePath: wavTargetPath) {
             print("wav path: \(wavTargetPath)")
@@ -48,55 +48,48 @@ class ViewController: UIViewController {
 
 
 class AudioFolderManager {
-    /**
-     返回 amr 的完整路径
+    /** 
+     Get the AMR file's full path
      
-     - parameter fileName: 文件名字，不包含后缀
-     
-     - returns: 返回路径
-     */
-    class func amrPathWithName(fileName: String) -> NSURL {
-        let filePath = self.amrFilesFolder.URLByAppendingPathComponent("\(fileName).\(kAudioFileTypeAmr)")
-        return filePath
-    }
-    
-    
-    /**
-     返回 wav 的完整路径
-     
-     - parameter fileName: 文件名字，不包含后缀
-     
-     - returns: 返回路径
-     */
-    class func wavPathWithName(fileName: String) -> NSURL {
-        let filePath = self.wavFilesFolder.URLByAppendingPathComponent("\(fileName).\(kAudioFileTypeWav)")
+     - parameter fileName: file name
+
+     - returns: Full path
+    */
+    class func amrPathWithName(_ fileName: String) -> URL {
+        let filePath = self.amrFilesFolder.appendingPathComponent("\(fileName).\(kAudioFileTypeAmr)")
         return filePath
     }
     
     /**
-     创建录音的文件夹, amr 格式
-     */
-    private class var amrFilesFolder: NSURL {
+     Get the WAV file's full path
+    
+     - parameter fileName: file name
+    
+     - returns: Full path
+    */
+    class func wavPathWithName(_ fileName: String) -> URL {
+        let filePath = self.wavFilesFolder.appendingPathComponent("\(fileName).\(kAudioFileTypeWav)")
+        return filePath
+    }
+    
+    /// Create AMR file record folder
+    fileprivate class var amrFilesFolder: URL {
         get { return self.createAudioFolder(kAmrRecordFolder)}
     }
     
-    /**
-     创建录音的文件夹, wav 格式
-     */
-    private class var wavFilesFolder: NSURL {
+    /// Create WAV file record folder
+    fileprivate class var wavFilesFolder: URL {
         get { return self.createAudioFolder(kWavRecordFolder)}
     }
     
-    /**
-     创建录音的文件夹
-     */
-    class private func createAudioFolder(folderName :String) -> NSURL {
-        let documentsDirectory = NSFileManager.defaultManager().URLsForDirectory(.CachesDirectory, inDomains: .UserDomainMask)[0]
-        let folder = documentsDirectory.URLByAppendingPathComponent(folderName)
-        let fileManager = NSFileManager.defaultManager()
-        if !fileManager.fileExistsAtPath(folder.absoluteString) {
+    /// Create record folder
+    class fileprivate func createAudioFolder(_ folderName :String) -> URL {
+        let documentsDirectory = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0]
+        let folder = documentsDirectory.appendingPathComponent(folderName)
+        let fileManager = FileManager.default
+        if !fileManager.fileExists(atPath: folder.absoluteString) {
             do {
-                try fileManager.createDirectoryAtPath(folder.path!, withIntermediateDirectories: true, attributes: nil)
+                try fileManager.createDirectory(atPath: folder.path, withIntermediateDirectories: true, attributes: nil)
                 return folder
             } catch let error as NSError {
                 print("error:\(error)")
