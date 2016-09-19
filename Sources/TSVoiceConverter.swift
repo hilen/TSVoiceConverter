@@ -8,7 +8,7 @@
 
 import Foundation
 
-open class TSVoiceConverter {
+public class TSVoiceConverter {
     /**
     Convert AMR file to WAV file
 
@@ -17,13 +17,13 @@ open class TSVoiceConverter {
  
      - returns: Convert success?
     */
-    open static func convertAmrToWav(_ amrFilePath: String, wavSavePath: String) -> Bool {
+    public class func convertAmrToWav(_ amrFilePath: String, wavSavePath: String) -> Bool {
         guard let amrCString = amrFilePath.cString(using: String.Encoding.utf8) else { return false }
         guard let wavCString = wavSavePath.cString(using: String.Encoding.utf8) else { return false }
         let decode = DecodeAMRFileToWAVEFile(amrCString, wavCString)
         return Bool(decode)
     }
-
+    
     /** 
     Convert WAV file to AMR file
  
@@ -32,7 +32,7 @@ open class TSVoiceConverter {
 
      - returns: Convert success?
     */
-    open static func convertWavToAmr(_ wavFilePath: String, amrSavePath: String) -> Bool {
+    public class func convertWavToAmr(_ wavFilePath: String, amrSavePath: String) -> Bool {
         guard let wavCString = wavFilePath.cString(using: String.Encoding.utf8) else { return false }
         guard let amrCString = amrSavePath.cString(using: String.Encoding.utf8) else { return false }
         let encode = EncodeWAVEFileToAMRFile(wavCString, amrCString, 1, 16)
@@ -46,7 +46,7 @@ open class TSVoiceConverter {
  
      - returns: True of false
     */
-    open static func isAMRFile(_ filePath: String) -> Bool {
+    public class func isAMRFile(_ filePath: String) -> Bool {
         guard let result = String.init(filePath) else { return false }
         return isAMRFile(result)
     }
@@ -58,7 +58,7 @@ open class TSVoiceConverter {
  
      - returns: True of false
     */
-    open static func isMP3File(_ filePath: String) -> Bool {
+    public class func isMP3File(_ filePath: String) -> Bool {
         guard let result = String.init(filePath) else { return false }
         return isMP3File(result)
     }

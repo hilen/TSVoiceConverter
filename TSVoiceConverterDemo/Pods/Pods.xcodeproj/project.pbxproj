@@ -1,595 +1,1486 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		02E02B78E8451AB944CE9F41E5B1906E /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 044189DA8F33FEFDD9FF158C9CF715B4 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E43EBA1455A3CFA0E3CB564DF46105A /* TSVoiceConverter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2A2A1E736C09FD0C4F711384948EB6 /* TSVoiceConverter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2458B9BE39223660ECEC7E568EFF2E14 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A933950604FF0D3562C902739C60421 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		249AABC4D01B6A37199B6D33A4DA35C4 /* TSVoiceConverter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4773F5489E49D01C246DA590020DEC /* TSVoiceConverter-dummy.m */; };
-		35691D746032A68BAACF35FC0E06E783 /* VoiceConverterHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 6507235459A9A0FE3A0623E44109A611 /* VoiceConverterHeaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50C1D72DEE1089EAA353953CABAA0898 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 87E00308F1FA2A5804A1A38DDDC160A0 /* amrFileCodec.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		512D25F0C10B5E141E47605E5CC78E21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		6AE72187D15397F3907F3AD8BB43C5B9 /* Pods-TSVoiceConverterDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F539E290DFBBD3E37E2EB34BFDCFB2 /* Pods-TSVoiceConverterDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AEB25C12552CFA966D02F423C0BD4DB /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 36B92EED4B86082B717B539D0149D367 /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FCB76639838E90BFFF4270F4B7D4D3C /* Pods-TSVoiceConverterDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA32F49458887375CEEA809CE110A9A7 /* Pods-TSVoiceConverterDemo-dummy.m */; };
-		9631A73283BADAC089685247445ED35A /* TSVoiceConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15663F57FFD0B2DE96D4271093AC8B4A /* TSVoiceConverter.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9DB0060298BD38A22F983483601D16B7 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5B60FE219DF27D92493AC7FF38F055 /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1F16B812B42E41058A2A3EB5A6D1118 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7301CFCE99BF688DB339861ECB1FC0 /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2E7CFE9700674C17F25C864E73E176F /* wav.h in Headers */ = {isa = PBXBuildFile; fileRef = 830A3F1BFFD879CD2C586C07C8BCDC78 /* wav.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2A1AB1B5060F29F34C41D92E841EC8D /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6AB78B2313919CE0393112DAFF820DB /* wav.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FE14395B49E4AB7B21809A9120B42C8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		14483B62C16793E80E1DF7B1611DEC62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D4F7FEAF5BF4C5FAFE18CA7B0969CED;
-			remoteInfo = TSVoiceConverter;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		044189DA8F33FEFDD9FF158C9CF715B4 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
-		05AABB49603E3AF09C3041043CC8B8AB /* TSVoiceConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSVoiceConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D5B60FE219DF27D92493AC7FF38F055 /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
-		0F6C12F2BF06DB96605D92C72212A852 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15663F57FFD0B2DE96D4271093AC8B4A /* TSVoiceConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TSVoiceConverter.swift; sourceTree = "<group>"; };
-		29024AC2B5B0DA6602D5DC168CF16B63 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "Sources/lib/libopencore-amrwb.a"; sourceTree = "<group>"; };
-		36B92EED4B86082B717B539D0149D367 /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4B7A391D4856313F537A5EB5409AD422 /* Pods-TSVoiceConverterDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSVoiceConverterDemo-frameworks.sh"; sourceTree = "<group>"; };
-		572EDEC6ACA7AAEEBA12A3E5A7EEBE9C /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "Sources/lib/libopencore-amrnb.a"; sourceTree = "<group>"; };
-		6507235459A9A0FE3A0623E44109A611 /* VoiceConverterHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VoiceConverterHeaders.h; sourceTree = "<group>"; };
-		6A933950604FF0D3562C902739C60421 /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
-		725CAF07F499669EC5A24C123323483B /* TSVoiceConverter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSVoiceConverter.xcconfig; sourceTree = "<group>"; };
-		782F840D0CC5CA97CB025ED71EF9D242 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		830A3F1BFFD879CD2C586C07C8BCDC78 /* wav.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
-		860C455AFEFF512C05A3AD0BC96F3DDF /* Pods_TSVoiceConverterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSVoiceConverterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87E00308F1FA2A5804A1A38DDDC160A0 /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
-		884EE7C7ADC4E9D40672804068D54706 /* Pods-TSVoiceConverterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSVoiceConverterDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		8F7301CFCE99BF688DB339861ECB1FC0 /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
-		967A62B919AE4A7BEF8A5A2E78668A62 /* TSVoiceConverter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSVoiceConverter-prefix.pch"; sourceTree = "<group>"; };
-		9AC8CB7A05DB9D7738DC95B82AED7454 /* TSVoiceConverter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TSVoiceConverter.modulemap; sourceTree = "<group>"; };
-		9C2A2A1E736C09FD0C4F711384948EB6 /* TSVoiceConverter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSVoiceConverter-umbrella.h"; sourceTree = "<group>"; };
-		AA32F49458887375CEEA809CE110A9A7 /* Pods-TSVoiceConverterDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSVoiceConverterDemo-dummy.m"; sourceTree = "<group>"; };
-		AF26C2672A250BB759E66A42D6731D77 /* Pods-TSVoiceConverterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSVoiceConverterDemo.release.xcconfig"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE4773F5489E49D01C246DA590020DEC /* TSVoiceConverter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSVoiceConverter-dummy.m"; sourceTree = "<group>"; };
-		C1E052741F02E8221E3920E831A89CF1 /* Pods-TSVoiceConverterDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSVoiceConverterDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		C866F9244DA127B5A80B113A5E0409D5 /* Pods-TSVoiceConverterDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TSVoiceConverterDemo.modulemap"; sourceTree = "<group>"; };
-		DEBA9E2BEFDFE242167220BC68D98140 /* Pods-TSVoiceConverterDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSVoiceConverterDemo-resources.sh"; sourceTree = "<group>"; };
-		EFAF9D8FDB82EA508A313CEFD53C5094 /* Pods-TSVoiceConverterDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSVoiceConverterDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F6AB78B2313919CE0393112DAFF820DB /* wav.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
-		F6F539E290DFBBD3E37E2EB34BFDCFB2 /* Pods-TSVoiceConverterDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSVoiceConverterDemo-umbrella.h"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		526D494DAB1DC1064AEFE6D8E95BD048 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				512D25F0C10B5E141E47605E5CC78E21 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9CAD1EB174D3F003576F9A9E22C63A40 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE14395B49E4AB7B21809A9120B42C8F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		3421A50250FE2FE19134A96675F965C7 /* Pods-TSVoiceConverterDemo */ = {
-			isa = PBXGroup;
-			children = (
-				782F840D0CC5CA97CB025ED71EF9D242 /* Info.plist */,
-				C866F9244DA127B5A80B113A5E0409D5 /* Pods-TSVoiceConverterDemo.modulemap */,
-				EFAF9D8FDB82EA508A313CEFD53C5094 /* Pods-TSVoiceConverterDemo-acknowledgements.markdown */,
-				C1E052741F02E8221E3920E831A89CF1 /* Pods-TSVoiceConverterDemo-acknowledgements.plist */,
-				AA32F49458887375CEEA809CE110A9A7 /* Pods-TSVoiceConverterDemo-dummy.m */,
-				4B7A391D4856313F537A5EB5409AD422 /* Pods-TSVoiceConverterDemo-frameworks.sh */,
-				DEBA9E2BEFDFE242167220BC68D98140 /* Pods-TSVoiceConverterDemo-resources.sh */,
-				F6F539E290DFBBD3E37E2EB34BFDCFB2 /* Pods-TSVoiceConverterDemo-umbrella.h */,
-				884EE7C7ADC4E9D40672804068D54706 /* Pods-TSVoiceConverterDemo.debug.xcconfig */,
-				AF26C2672A250BB759E66A42D6731D77 /* Pods-TSVoiceConverterDemo.release.xcconfig */,
-			);
-			name = "Pods-TSVoiceConverterDemo";
-			path = "Target Support Files/Pods-TSVoiceConverterDemo";
-			sourceTree = "<group>";
-		};
-		546ABD4747324159682BFCDC5292DAA3 /* amrwapper */ = {
-			isa = PBXGroup;
-			children = (
-				6A933950604FF0D3562C902739C60421 /* amrFileCodec.h */,
-				87E00308F1FA2A5804A1A38DDDC160A0 /* amrFileCodec.mm */,
-				830A3F1BFFD879CD2C586C07C8BCDC78 /* wav.h */,
-				F6AB78B2313919CE0393112DAFF820DB /* wav.mm */,
-			);
-			path = amrwapper;
-			sourceTree = "<group>";
-		};
-		703AD189D9997AEC80190140DEDD991A /* opencore-amrwb */ = {
-			isa = PBXGroup;
-			children = (
-				36B92EED4B86082B717B539D0149D367 /* dec_if.h */,
-				044189DA8F33FEFDD9FF158C9CF715B4 /* if_rom.h */,
-			);
-			path = "opencore-amrwb";
-			sourceTree = "<group>";
-		};
-		798DCFA989D9C1BAB138718C08CF3659 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E6F70819052DEC8F69F21374786D44F1 /* TSVoiceConverter */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				798DCFA989D9C1BAB138718C08CF3659 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9A79D9274C3602CE04A5897A849130A2 /* Products */,
-				B50167B3C147B9D88425A77EC745C1B1 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8A1DC458C8F9EE55A9F237B0B87307D6 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				15663F57FFD0B2DE96D4271093AC8B4A /* TSVoiceConverter.swift */,
-				6507235459A9A0FE3A0623E44109A611 /* VoiceConverterHeaders.h */,
-				546ABD4747324159682BFCDC5292DAA3 /* amrwapper */,
-				B13E48B236968EB882A32B6888D8F571 /* opencore-amrnb */,
-				703AD189D9997AEC80190140DEDD991A /* opencore-amrwb */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		9A79D9274C3602CE04A5897A849130A2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				860C455AFEFF512C05A3AD0BC96F3DDF /* Pods_TSVoiceConverterDemo.framework */,
-				05AABB49603E3AF09C3041043CC8B8AB /* TSVoiceConverter.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9C0FDCA9336A36D73C6A69A294CD6E4E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0F6C12F2BF06DB96605D92C72212A852 /* Info.plist */,
-				9AC8CB7A05DB9D7738DC95B82AED7454 /* TSVoiceConverter.modulemap */,
-				725CAF07F499669EC5A24C123323483B /* TSVoiceConverter.xcconfig */,
-				BE4773F5489E49D01C246DA590020DEC /* TSVoiceConverter-dummy.m */,
-				967A62B919AE4A7BEF8A5A2E78668A62 /* TSVoiceConverter-prefix.pch */,
-				9C2A2A1E736C09FD0C4F711384948EB6 /* TSVoiceConverter-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "TSVoiceConverterDemo/Pods/Target Support Files/TSVoiceConverter";
-			sourceTree = "<group>";
-		};
-		9FFC234D2F9267EA39068A8BD9530A7F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				572EDEC6ACA7AAEEBA12A3E5A7EEBE9C /* libopencore-amrnb.a */,
-				29024AC2B5B0DA6602D5DC168CF16B63 /* libopencore-amrwb.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B13E48B236968EB882A32B6888D8F571 /* opencore-amrnb */ = {
-			isa = PBXGroup;
-			children = (
-				8F7301CFCE99BF688DB339861ECB1FC0 /* interf_dec.h */,
-				0D5B60FE219DF27D92493AC7FF38F055 /* interf_enc.h */,
-			);
-			path = "opencore-amrnb";
-			sourceTree = "<group>";
-		};
-		B50167B3C147B9D88425A77EC745C1B1 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3421A50250FE2FE19134A96675F965C7 /* Pods-TSVoiceConverterDemo */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E6F70819052DEC8F69F21374786D44F1 /* TSVoiceConverter */ = {
-			isa = PBXGroup;
-			children = (
-				9FFC234D2F9267EA39068A8BD9530A7F /* Frameworks */,
-				8A1DC458C8F9EE55A9F237B0B87307D6 /* Sources */,
-				9C0FDCA9336A36D73C6A69A294CD6E4E /* Support Files */,
-			);
-			name = TSVoiceConverter;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		031FB8D7E8296DA16844F05DA172D399 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2458B9BE39223660ECEC7E568EFF2E14 /* amrFileCodec.h in Headers */,
-				8AEB25C12552CFA966D02F423C0BD4DB /* dec_if.h in Headers */,
-				02E02B78E8451AB944CE9F41E5B1906E /* if_rom.h in Headers */,
-				C1F16B812B42E41058A2A3EB5A6D1118 /* interf_dec.h in Headers */,
-				9DB0060298BD38A22F983483601D16B7 /* interf_enc.h in Headers */,
-				1E43EBA1455A3CFA0E3CB564DF46105A /* TSVoiceConverter-umbrella.h in Headers */,
-				35691D746032A68BAACF35FC0E06E783 /* VoiceConverterHeaders.h in Headers */,
-				D2E7CFE9700674C17F25C864E73E176F /* wav.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DEF8D9CC1E1FF852DD62BA1E6817701 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AE72187D15397F3907F3AD8BB43C5B9 /* Pods-TSVoiceConverterDemo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		0D4F7FEAF5BF4C5FAFE18CA7B0969CED /* TSVoiceConverter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EF574D7687BB5C73B688BEBB81479798 /* Build configuration list for PBXNativeTarget "TSVoiceConverter" */;
-			buildPhases = (
-				A8443CA42A9D5450E24517578F270A11 /* Sources */,
-				526D494DAB1DC1064AEFE6D8E95BD048 /* Frameworks */,
-				031FB8D7E8296DA16844F05DA172D399 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TSVoiceConverter;
-			productName = TSVoiceConverter;
-			productReference = 05AABB49603E3AF09C3041043CC8B8AB /* TSVoiceConverter.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9A430E6CC7216978716D509F156B1B00 /* Pods-TSVoiceConverterDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C933F282AB0D52142CB633D2F6E55F52 /* Build configuration list for PBXNativeTarget "Pods-TSVoiceConverterDemo" */;
-			buildPhases = (
-				69F56E9747A158590239F923775DC76B /* Sources */,
-				9CAD1EB174D3F003576F9A9E22C63A40 /* Frameworks */,
-				4DEF8D9CC1E1FF852DD62BA1E6817701 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2699D77D3B203485489B9ACC2968690E /* PBXTargetDependency */,
-			);
-			name = "Pods-TSVoiceConverterDemo";
-			productName = "Pods-TSVoiceConverterDemo";
-			productReference = 860C455AFEFF512C05A3AD0BC96F3DDF /* Pods_TSVoiceConverterDemo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					0D4F7FEAF5BF4C5FAFE18CA7B0969CED = {
-						LastSwiftMigration = 0800;
-					};
-					9A430E6CC7216978716D509F156B1B00 = {
-						LastSwiftMigration = 0800;
-					};
-				};
-			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9A79D9274C3602CE04A5897A849130A2 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				9A430E6CC7216978716D509F156B1B00 /* Pods-TSVoiceConverterDemo */,
-				0D4F7FEAF5BF4C5FAFE18CA7B0969CED /* TSVoiceConverter */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		69F56E9747A158590239F923775DC76B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8FCB76639838E90BFFF4270F4B7D4D3C /* Pods-TSVoiceConverterDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8443CA42A9D5450E24517578F270A11 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50C1D72DEE1089EAA353953CABAA0898 /* amrFileCodec.mm in Sources */,
-				249AABC4D01B6A37199B6D33A4DA35C4 /* TSVoiceConverter-dummy.m in Sources */,
-				9631A73283BADAC089685247445ED35A /* TSVoiceConverter.swift in Sources */,
-				E2A1AB1B5060F29F34C41D92E841EC8D /* wav.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2699D77D3B203485489B9ACC2968690E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TSVoiceConverter;
-			target = 0D4F7FEAF5BF4C5FAFE18CA7B0969CED /* TSVoiceConverter */;
-			targetProxy = 14483B62C16793E80E1DF7B1611DEC62 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		24024FEB2750514DA3AF546FA518DA5F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 725CAF07F499669EC5A24C123323483B /* TSVoiceConverter.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TSVoiceConverter/TSVoiceConverter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TSVoiceConverter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TSVoiceConverter/TSVoiceConverter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TSVoiceConverter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2B389FAB51F6EEA43F72CA7BDC8E8E28 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		5A0C6FE968931D888F00C9EC18DDF5BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		76A6E89CE0107D231F351C29A720E824 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF26C2672A250BB759E66A42D6731D77 /* Pods-TSVoiceConverterDemo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TSVoiceConverterDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TSVoiceConverterDemo/Pods-TSVoiceConverterDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_TSVoiceConverterDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CBED570729AC9BD1ECD011A12FD5B578 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 884EE7C7ADC4E9D40672804068D54706 /* Pods-TSVoiceConverterDemo.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TSVoiceConverterDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TSVoiceConverterDemo/Pods-TSVoiceConverterDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_TSVoiceConverterDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CF22378C63C60B55AA53F09217D3275E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 725CAF07F499669EC5A24C123323483B /* TSVoiceConverter.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TSVoiceConverter/TSVoiceConverter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TSVoiceConverter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TSVoiceConverter/TSVoiceConverter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TSVoiceConverter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B389FAB51F6EEA43F72CA7BDC8E8E28 /* Debug */,
-				5A0C6FE968931D888F00C9EC18DDF5BC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C933F282AB0D52142CB633D2F6E55F52 /* Build configuration list for PBXNativeTarget "Pods-TSVoiceConverterDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CBED570729AC9BD1ECD011A12FD5B578 /* Debug */,
-				76A6E89CE0107D231F351C29A720E824 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF574D7687BB5C73B688BEBB81479798 /* Build configuration list for PBXNativeTarget "TSVoiceConverter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				24024FEB2750514DA3AF546FA518DA5F /* Debug */,
-				CF22378C63C60B55AA53F09217D3275E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>0176FAC9375E0B446989A941A0FEC602</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0B421F816D03685AE80385F86FEA4623</string>
+				<string>3EBE64296BA397F306B53B48FCE72F9A</string>
+				<string>E72E9112C30FDCEC4C771F76607F3F7D</string>
+				<string>90868D21798D621DB17662275656F781</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>amrwapper</string>
+			<key>path</key>
+			<string>amrwapper</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05AABB49603E3AF09C3041043CC8B8AB</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>TSVoiceConverter.framework</string>
+			<key>path</key>
+			<string>TSVoiceConverter.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>0B421F816D03685AE80385F86FEA4623</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>amrFileCodec.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0D4F7FEAF5BF4C5FAFE18CA7B0969CED</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>EF574D7687BB5C73B688BEBB81479798</string>
+			<key>buildPhases</key>
+			<array>
+				<string>A8443CA42A9D5450E24517578F270A11</string>
+				<string>526D494DAB1DC1064AEFE6D8E95BD048</string>
+				<string>5B635CE0EC07200B74E3D3394B813408</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>TSVoiceConverter</string>
+			<key>productName</key>
+			<string>TSVoiceConverter</string>
+			<key>productReference</key>
+			<string>05AABB49603E3AF09C3041043CC8B8AB</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>0F6C12F2BF06DB96605D92C72212A852</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>14483B62C16793E80E1DF7B1611DEC62</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>0D4F7FEAF5BF4C5FAFE18CA7B0969CED</string>
+			<key>remoteInfo</key>
+			<string>TSVoiceConverter</string>
+		</dict>
+		<key>21A4D3E876CCDB0C1DBBDB88093A399B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8D68BCDE286882F7A09802AC7BCBB892</string>
+				<string>482DBFFFBE37F10BD62C21975BF9ED2C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>opencore-amrnb</string>
+			<key>path</key>
+			<string>opencore-amrnb</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>249AABC4D01B6A37199B6D33A4DA35C4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BE4773F5489E49D01C246DA590020DEC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2699D77D3B203485489B9ACC2968690E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>TSVoiceConverter</string>
+			<key>target</key>
+			<string>0D4F7FEAF5BF4C5FAFE18CA7B0969CED</string>
+			<key>targetProxy</key>
+			<string>14483B62C16793E80E1DF7B1611DEC62</string>
+		</dict>
+		<key>29024AC2B5B0DA6602D5DC168CF16B63</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libopencore-amrwb.a</string>
+			<key>path</key>
+			<string>Sources/lib/libopencore-amrwb.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2A7D2D987F2CFBB523BED75A6E1D5B94</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>884EE7C7ADC4E9D40672804068D54706</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-TSVoiceConverterDemo/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-TSVoiceConverterDemo/Pods-TSVoiceConverterDemo.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_TSVoiceConverterDemo</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>2B389FAB51F6EEA43F72CA7BDC8E8E28</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>2CB861130F654A6999A5B369DBE9B7D2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>TSVoiceConverter.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2B389FAB51F6EEA43F72CA7BDC8E8E28</string>
+				<string>5A0C6FE968931D888F00C9EC18DDF5BC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>3421A50250FE2FE19134A96675F965C7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>782F840D0CC5CA97CB025ED71EF9D242</string>
+				<string>C866F9244DA127B5A80B113A5E0409D5</string>
+				<string>EFAF9D8FDB82EA508A313CEFD53C5094</string>
+				<string>C1E052741F02E8221E3920E831A89CF1</string>
+				<string>AA32F49458887375CEEA809CE110A9A7</string>
+				<string>4B7A391D4856313F537A5EB5409AD422</string>
+				<string>DEBA9E2BEFDFE242167220BC68D98140</string>
+				<string>F6F539E290DFBBD3E37E2EB34BFDCFB2</string>
+				<string>884EE7C7ADC4E9D40672804068D54706</string>
+				<string>AF26C2672A250BB759E66A42D6731D77</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-TSVoiceConverterDemo</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-TSVoiceConverterDemo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3AC4F2E66E4528EFF22E050833231AE8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E72E9112C30FDCEC4C771F76607F3F7D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>3E4E89230EF59BC255123B67864ACF77</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>3EBE64296BA397F306B53B48FCE72F9A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>amrFileCodec.mm</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4025C3FB33C5515E8596C99E787E4315</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>if_rom.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>482DBFFFBE37F10BD62C21975BF9ED2C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>interf_enc.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4A546B6408CEF5B25A8DEFD075CA1072</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C2A2A1E736C09FD0C4F711384948EB6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>4B7A391D4856313F537A5EB5409AD422</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-TSVoiceConverterDemo-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4DEF8D9CC1E1FF852DD62BA1E6817701</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6AE72187D15397F3907F3AD8BB43C5B9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>50C1D72DEE1089EAA353953CABAA0898</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3EBE64296BA397F306B53B48FCE72F9A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>512D25F0C10B5E141E47605E5CC78E21</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>526D494DAB1DC1064AEFE6D8E95BD048</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>512D25F0C10B5E141E47605E5CC78E21</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>572EDEC6ACA7AAEEBA12A3E5A7EEBE9C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libopencore-amrnb.a</string>
+			<key>path</key>
+			<string>Sources/lib/libopencore-amrnb.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A0C6FE968931D888F00C9EC18DDF5BC</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>RELEASE=1</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>5A79F58AF3BD3A62BA166D7BFC8A8F8E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TSVoiceConverterHeaders.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5B635CE0EC07200B74E3D3394B813408</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9A7C4E163E427333AF97483CC1BE017C</string>
+				<string>7FEC97C9A9BF2B697FA4202886C0C3B4</string>
+				<string>A4BDDD2E8B461FB690B6B7C0F929F772</string>
+				<string>DD7F4D40B53F4A4BE62513E38F2D1BFF</string>
+				<string>BFB4F1B0297A73C6424B0A895E8E3D5C</string>
+				<string>4A546B6408CEF5B25A8DEFD075CA1072</string>
+				<string>B823F17321F5A824B721D46A4578EB39</string>
+				<string>3AC4F2E66E4528EFF22E050833231AE8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>674D472821C509928439D1C040EF3629</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2CB861130F654A6999A5B369DBE9B7D2</string>
+				<string>5A79F58AF3BD3A62BA166D7BFC8A8F8E</string>
+				<string>0176FAC9375E0B446989A941A0FEC602</string>
+				<string>21A4D3E876CCDB0C1DBBDB88093A399B</string>
+				<string>F1DDA68CF023F8DD63DBCA3E51069C28</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Sources</string>
+			<key>path</key>
+			<string>Sources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>69F56E9747A158590239F923775DC76B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8FCB76639838E90BFFF4270F4B7D4D3C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6AE72187D15397F3907F3AD8BB43C5B9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F6F539E290DFBBD3E37E2EB34BFDCFB2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>6B995A59D0FAF9D64F5E77AB14C5E8A5</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>725CAF07F499669EC5A24C123323483B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/TSVoiceConverter/TSVoiceConverter-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/TSVoiceConverter/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/TSVoiceConverter/TSVoiceConverter.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>TSVoiceConverter</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>725CAF07F499669EC5A24C123323483B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>TSVoiceConverter.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>782F840D0CC5CA97CB025ED71EF9D242</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>798DCFA989D9C1BAB138718C08CF3659</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E6F70819052DEC8F69F21374786D44F1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
+				<string>798DCFA989D9C1BAB138718C08CF3659</string>
+				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
+				<string>9A79D9274C3602CE04A5897A849130A2</string>
+				<string>B50167B3C147B9D88425A77EC745C1B1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FEC97C9A9BF2B697FA4202886C0C3B4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A9313C3DC83D3C654BDC373DD4587D72</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>860C455AFEFF512C05A3AD0BC96F3DDF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_TSVoiceConverterDemo.framework</string>
+			<key>path</key>
+			<string>Pods_TSVoiceConverterDemo.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>884EE7C7ADC4E9D40672804068D54706</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-TSVoiceConverterDemo.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8D68BCDE286882F7A09802AC7BCBB892</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>interf_dec.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8FCB76639838E90BFFF4270F4B7D4D3C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AA32F49458887375CEEA809CE110A9A7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>90868D21798D621DB17662275656F781</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>wav.mm</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9631A73283BADAC089685247445ED35A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2CB861130F654A6999A5B369DBE9B7D2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>967A62B919AE4A7BEF8A5A2E78668A62</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TSVoiceConverter-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9A430E6CC7216978716D509F156B1B00</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>C933F282AB0D52142CB633D2F6E55F52</string>
+			<key>buildPhases</key>
+			<array>
+				<string>69F56E9747A158590239F923775DC76B</string>
+				<string>9CAD1EB174D3F003576F9A9E22C63A40</string>
+				<string>4DEF8D9CC1E1FF852DD62BA1E6817701</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>2699D77D3B203485489B9ACC2968690E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-TSVoiceConverterDemo</string>
+			<key>productName</key>
+			<string>Pods-TSVoiceConverterDemo</string>
+			<key>productReference</key>
+			<string>860C455AFEFF512C05A3AD0BC96F3DDF</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>9A79D9274C3602CE04A5897A849130A2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>860C455AFEFF512C05A3AD0BC96F3DDF</string>
+				<string>05AABB49603E3AF09C3041043CC8B8AB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9A7C4E163E427333AF97483CC1BE017C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0B421F816D03685AE80385F86FEA4623</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9AC8CB7A05DB9D7738DC95B82AED7454</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>TSVoiceConverter.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C0FDCA9336A36D73C6A69A294CD6E4E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0F6C12F2BF06DB96605D92C72212A852</string>
+				<string>9AC8CB7A05DB9D7738DC95B82AED7454</string>
+				<string>725CAF07F499669EC5A24C123323483B</string>
+				<string>BE4773F5489E49D01C246DA590020DEC</string>
+				<string>967A62B919AE4A7BEF8A5A2E78668A62</string>
+				<string>9C2A2A1E736C09FD0C4F711384948EB6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>TSVoiceConverterDemo/Pods/Target Support Files/TSVoiceConverter</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C2A2A1E736C09FD0C4F711384948EB6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TSVoiceConverter-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9CAD1EB174D3F003576F9A9E22C63A40</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FE14395B49E4AB7B21809A9120B42C8F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9FFC234D2F9267EA39068A8BD9530A7F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>572EDEC6ACA7AAEEBA12A3E5A7EEBE9C</string>
+				<string>29024AC2B5B0DA6602D5DC168CF16B63</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A4BDDD2E8B461FB690B6B7C0F929F772</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4025C3FB33C5515E8596C99E787E4315</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A8443CA42A9D5450E24517578F270A11</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>50C1D72DEE1089EAA353953CABAA0898</string>
+				<string>249AABC4D01B6A37199B6D33A4DA35C4</string>
+				<string>9631A73283BADAC089685247445ED35A</string>
+				<string>E2A1AB1B5060F29F34C41D92E841EC8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A9313C3DC83D3C654BDC373DD4587D72</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>dec_if.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AA32F49458887375CEEA809CE110A9A7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-TSVoiceConverterDemo-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AF26C2672A250BB759E66A42D6731D77</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-TSVoiceConverterDemo.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B026BA7FEA00DEA6A494947C8C95004D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>AF26C2672A250BB759E66A42D6731D77</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-TSVoiceConverterDemo/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-TSVoiceConverterDemo/Pods-TSVoiceConverterDemo.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_TSVoiceConverterDemo</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>B50167B3C147B9D88425A77EC745C1B1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3421A50250FE2FE19134A96675F965C7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B823F17321F5A824B721D46A4578EB39</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A79F58AF3BD3A62BA166D7BFC8A8F8E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BE4773F5489E49D01C246DA590020DEC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TSVoiceConverter-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3E4E89230EF59BC255123B67864ACF77</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BFB4F1B0297A73C6424B0A895E8E3D5C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>482DBFFFBE37F10BD62C21975BF9ED2C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C1E052741F02E8221E3920E831A89CF1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-TSVoiceConverterDemo-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C866F9244DA127B5A80B113A5E0409D5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-TSVoiceConverterDemo.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C933F282AB0D52142CB633D2F6E55F52</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2A7D2D987F2CFBB523BED75A6E1D5B94</string>
+				<string>B026BA7FEA00DEA6A494947C8C95004D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D41D8CD98F00B204E9800998ECF8427E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0700</string>
+				<key>LastUpgradeCheck</key>
+				<string>0700</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>7DB346D0F39D3F0E887471402A8071AB</string>
+			<key>productRefGroup</key>
+			<string>9A79D9274C3602CE04A5897A849130A2</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>9A430E6CC7216978716D509F156B1B00</string>
+				<string>0D4F7FEAF5BF4C5FAFE18CA7B0969CED</string>
+			</array>
+		</dict>
+		<key>DD7F4D40B53F4A4BE62513E38F2D1BFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8D68BCDE286882F7A09802AC7BCBB892</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>DEBA9E2BEFDFE242167220BC68D98140</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-TSVoiceConverterDemo-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E2A1AB1B5060F29F34C41D92E841EC8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>90868D21798D621DB17662275656F781</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>E6F70819052DEC8F69F21374786D44F1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9FFC234D2F9267EA39068A8BD9530A7F</string>
+				<string>674D472821C509928439D1C040EF3629</string>
+				<string>9C0FDCA9336A36D73C6A69A294CD6E4E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TSVoiceConverter</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E72E9112C30FDCEC4C771F76607F3F7D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>wav.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E967C1E6FB3571A84B5C1853B965B031</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>725CAF07F499669EC5A24C123323483B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/TSVoiceConverter/TSVoiceConverter-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/TSVoiceConverter/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/TSVoiceConverter/TSVoiceConverter.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>TSVoiceConverter</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EF574D7687BB5C73B688BEBB81479798</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>E967C1E6FB3571A84B5C1853B965B031</string>
+				<string>6B995A59D0FAF9D64F5E77AB14C5E8A5</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>EFAF9D8FDB82EA508A313CEFD53C5094</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-TSVoiceConverterDemo-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F1DDA68CF023F8DD63DBCA3E51069C28</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A9313C3DC83D3C654BDC373DD4587D72</string>
+				<string>4025C3FB33C5515E8596C99E787E4315</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>opencore-amrwb</string>
+			<key>path</key>
+			<string>opencore-amrwb</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F6F539E290DFBBD3E37E2EB34BFDCFB2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-TSVoiceConverterDemo-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FE14395B49E4AB7B21809A9120B42C8F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>D41D8CD98F00B204E9800998ECF8427E</string>
+</dict>
+</plist>
