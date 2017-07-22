@@ -1,1 +1,0 @@
-../../../../../Sources/opencore-amrnb/interf_enc.h

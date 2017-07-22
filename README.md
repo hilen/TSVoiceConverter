@@ -24,6 +24,9 @@ pod "TSVoiceConverter"
 
 Hilen, hilenkz@gmail.com
 
+## Compile
+[Here is the opencore-amr source file](https://sourceforge.net/projects/opencore-amr/?source=typ_redirect), download the source code, run Compile/build.sh
+
 ## License
 
 TSVoiceConverter is available under the MIT license. See the LICENSE file for more info.
