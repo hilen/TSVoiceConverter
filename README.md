@@ -17,15 +17,11 @@ TSVoiceConverter is available through [CocoaPods](http://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "TSVoiceConverter"
+pod "TSVoiceConverter", '0.1.5'
 ```
 
-## Author
-
-Hilen, hilenkz@gmail.com
-
 ## Compile
-[Here is the opencore-amr source file](https://sourceforge.net/projects/opencore-amr/?source=typ_redirect), download the source code, run Compile/build.sh
+[Here is the opencore-amr source file](https://sourceforge.net/projects/opencore-amr/?source=typ_redirect), download the source code, run `Compile/build.sh`
 
 ## License
 
