@@ -40,10 +40,10 @@
 		0F6C12F2BF06DB96605D92C72212A852 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29024AC2B5B0DA6602D5DC168CF16B63 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "Sources/lib/libopencore-amrwb.a"; sourceTree = "<group>"; };
 		2CB861130F654A6999A5B369DBE9B7D2 /* TSVoiceConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TSVoiceConverter.swift; sourceTree = "<group>"; };
-		3EBE64296BA397F306B53B48FCE72F9A /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		3EBE64296BA397F306B53B48FCE72F9A /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
 		4025C3FB33C5515E8596C99E787E4315 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
 		482DBFFFBE37F10BD62C21975BF9ED2C /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
-		487B2F5B512E13DDC99DC6AE54647594 /* TSVoiceConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TSVoiceConverter.framework; path = TSVoiceConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		487B2F5B512E13DDC99DC6AE54647594 /* TSVoiceConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSVoiceConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7A391D4856313F537A5EB5409AD422 /* Pods-TSVoiceConverterDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSVoiceConverterDemo-frameworks.sh"; sourceTree = "<group>"; };
 		572EDEC6ACA7AAEEBA12A3E5A7EEBE9C /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "Sources/lib/libopencore-amrnb.a"; sourceTree = "<group>"; };
 		5A79F58AF3BD3A62BA166D7BFC8A8F8E /* TSVoiceConverterHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TSVoiceConverterHeaders.h; sourceTree = "<group>"; };
@@ -51,18 +51,18 @@
 		782F840D0CC5CA97CB025ED71EF9D242 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		884EE7C7ADC4E9D40672804068D54706 /* Pods-TSVoiceConverterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSVoiceConverterDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8D68BCDE286882F7A09802AC7BCBB892 /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
-		90868D21798D621DB17662275656F781 /* wav.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = wav.mm; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90868D21798D621DB17662275656F781 /* wav.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		967A62B919AE4A7BEF8A5A2E78668A62 /* TSVoiceConverter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSVoiceConverter-prefix.pch"; sourceTree = "<group>"; };
-		9AC8CB7A05DB9D7738DC95B82AED7454 /* TSVoiceConverter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TSVoiceConverter.modulemap; sourceTree = "<group>"; };
+		9AC8CB7A05DB9D7738DC95B82AED7454 /* TSVoiceConverter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TSVoiceConverter.modulemap; sourceTree = "<group>"; };
 		9C2A2A1E736C09FD0C4F711384948EB6 /* TSVoiceConverter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSVoiceConverter-umbrella.h"; sourceTree = "<group>"; };
-		A5A8FE39BD8AB428BC02C7377394A2B3 /* Pods_TSVoiceConverterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TSVoiceConverterDemo.framework; path = "Pods-TSVoiceConverterDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A8FE39BD8AB428BC02C7377394A2B3 /* Pods_TSVoiceConverterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSVoiceConverterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9313C3DC83D3C654BDC373DD4587D72 /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
 		AA32F49458887375CEEA809CE110A9A7 /* Pods-TSVoiceConverterDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSVoiceConverterDemo-dummy.m"; sourceTree = "<group>"; };
 		AF26C2672A250BB759E66A42D6731D77 /* Pods-TSVoiceConverterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSVoiceConverterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BE4773F5489E49D01C246DA590020DEC /* TSVoiceConverter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSVoiceConverter-dummy.m"; sourceTree = "<group>"; };
 		C1E052741F02E8221E3920E831A89CF1 /* Pods-TSVoiceConverterDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSVoiceConverterDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		C866F9244DA127B5A80B113A5E0409D5 /* Pods-TSVoiceConverterDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TSVoiceConverterDemo.modulemap"; sourceTree = "<group>"; };
+		C866F9244DA127B5A80B113A5E0409D5 /* Pods-TSVoiceConverterDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TSVoiceConverterDemo.modulemap"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DEBA9E2BEFDFE242167220BC68D98140 /* Pods-TSVoiceConverterDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSVoiceConverterDemo-resources.sh"; sourceTree = "<group>"; };
 		E72E9112C30FDCEC4C771F76607F3F7D /* wav.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
@@ -98,7 +98,6 @@
 				E72E9112C30FDCEC4C771F76607F3F7D /* wav.h */,
 				90868D21798D621DB17662275656F781 /* wav.mm */,
 			);
-			name = amrwapper;
 			path = amrwapper;
 			sourceTree = "<group>";
 		};
@@ -108,7 +107,6 @@
 				8D68BCDE286882F7A09802AC7BCBB892 /* interf_dec.h */,
 				482DBFFFBE37F10BD62C21975BF9ED2C /* interf_enc.h */,
 			);
-			name = "opencore-amrnb";
 			path = "opencore-amrnb";
 			sourceTree = "<group>";
 		};
@@ -139,7 +137,6 @@
 				21A4D3E876CCDB0C1DBBDB88093A399B /* opencore-amrnb */,
 				F1DDA68CF023F8DD63DBCA3E51069C28 /* opencore-amrwb */,
 			);
-			name = Sources;
 			path = Sources;
 			sourceTree = "<group>";
 		};
@@ -235,7 +232,6 @@
 				A9313C3DC83D3C654BDC373DD4587D72 /* dec_if.h */,
 				4025C3FB33C5515E8596C99E787E4315 /* if_rom.h */,
 			);
-			name = "opencore-amrwb";
 			path = "opencore-amrwb";
 			sourceTree = "<group>";
 		};
@@ -310,7 +306,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					1601B9DAEB9A7637E5C9181899629DC2 = {
+						LastSwiftMigration = "";
+					};
+					8807657A035E199964DBF191C0DEB087 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -388,7 +392,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -404,20 +409,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -484,19 +499,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -510,6 +535,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -540,7 +566,8 @@
 				PRODUCT_NAME = TSVoiceConverter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
