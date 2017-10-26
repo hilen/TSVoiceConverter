@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = ['Sources/**/*.{h,mm}','Sources/*.{h,mm}','Sources/TSVoiceConverter.swift']
   s.vendored_libraries = "Sources/**/*.a"
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 end
