@@ -16,8 +16,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 TSVoiceConverter is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+Swift 3:
+
 ```ruby
 pod "TSVoiceConverter", '0.1.5'
+```
+
+Swift 4:
+
+```ruby
+pod "TSVoiceConverter", '0.1.6'
 ```
 
 ## Compile
