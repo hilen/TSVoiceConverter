@@ -14,9 +14,10 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Hilen" => "hilenkz@gmail.com" }
   s.source           = { :git => "https://github.com/hilen/TSVoiceConverter.git", :tag => s.version.to_s }
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '13.0'
   s.requires_arc = true
   s.source_files = ['Sources/**/*.{h,mm}','Sources/*.{h,mm}','Sources/TSVoiceConverter.swift']
-  s.vendored_libraries = "Sources/**/*.a"
+  s.vendored_frameworks = "Sources/**/*.xcframework"
+  # s.vendored_libraries = "Sources/**/*.a"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 end
