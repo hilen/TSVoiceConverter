@@ -42,34 +42,34 @@
 		2498648FACD2A32089BAB092D3FD0D6D /* TSVoiceConverter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TSVoiceConverter-xcframeworks.sh"; sourceTree = "<group>"; };
 		2B24036AC8D94179522F42970A0D8BEB /* TSVoiceConverter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TSVoiceConverter; path = TSVoiceConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAEE50C2599F78DB23DD691C387659A /* Pods-TSVoiceConverterDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSVoiceConverterDemo-Info.plist"; sourceTree = "<group>"; };
-		2EBBCB264871F09437E4E4A7B684BE2D /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		2EBBCB264871F09437E4E4A7B684BE2D /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = amrFileCodec.mm; sourceTree = "<group>"; };
 		2FA0E8D4BCBC8AEB79ED9AF3A28D244B /* TSVoiceConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSVoiceConverter.swift; path = Sources/TSVoiceConverter.swift; sourceTree = "<group>"; };
 		44AAF9E8C2BA64357C5ED5D17F59CD40 /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
 		4C3E9C0D858B5568650E3B68442F81DE /* TSVoiceConverter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSVoiceConverter-dummy.m"; sourceTree = "<group>"; };
-		4C7099FC51A59A4ADE955D1FEDF2C8D9 /* wav.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+		4C7099FC51A59A4ADE955D1FEDF2C8D9 /* wav.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = wav.mm; sourceTree = "<group>"; };
 		5B43503651E4246430FDBE303289CA97 /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
 		5C8099DD016F4CA30AE88A4845669C7E /* wav.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
-		60E11C92DED3A625FEE7433772BCD282 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		60E11C92DED3A625FEE7433772BCD282 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		62D1D5DA3F60CD8D982336EEADB112C8 /* Pods-TSVoiceConverterDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSVoiceConverterDemo-dummy.m"; sourceTree = "<group>"; };
 		664A422DD608E0AE8D9580E7A202A2A4 /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
-		713240057216DFB907007F11C40CC0DF /* libopencore-amrnb.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = "libopencore-amrnb.xcframework"; path = "Sources/frameworks/libopencore-amrnb.xcframework"; sourceTree = "<group>"; };
+		713240057216DFB907007F11C40CC0DF /* libopencore-amrnb.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = "libopencore-amrnb.xcframework"; path = "Sources/frameworks/libopencore-amrnb.xcframework"; sourceTree = "<group>"; };
 		72419257C18835F7D3B6947DDFFD197B /* TSVoiceConverter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSVoiceConverter-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7526FA1ABD898E6E8521C6B0752D338D /* Pods-TSVoiceConverterDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSVoiceConverterDemo-umbrella.h"; sourceTree = "<group>"; };
 		7867BDAA1CF05216C6546C1BCEB3DF61 /* Pods-TSVoiceConverterDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSVoiceConverterDemo-frameworks.sh"; sourceTree = "<group>"; };
 		79B1344D56295830D4428A48F98ED1ED /* TSVoiceConverter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSVoiceConverter-Info.plist"; sourceTree = "<group>"; };
 		8592D0DE99127F482C778D887562CE6A /* TSVoiceConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSVoiceConverter.release.xcconfig; sourceTree = "<group>"; };
-		96D50FCB22C2F2852D6D9E907A342CCF /* libopencore-amrwb.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = "libopencore-amrwb.xcframework"; path = "Sources/frameworks/libopencore-amrwb.xcframework"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96D50FCB22C2F2852D6D9E907A342CCF /* libopencore-amrwb.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = "libopencore-amrwb.xcframework"; path = "Sources/frameworks/libopencore-amrwb.xcframework"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A735B71FF70DCF1F2A52CD0BF4F44CE5 /* TSVoiceConverter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSVoiceConverter-umbrella.h"; sourceTree = "<group>"; };
 		A8BF8586A44AB811AF6C32D063AFAA00 /* Pods-TSVoiceConverterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSVoiceConverterDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B302E302B01EDEA2095BB3FE36388D7A /* Pods-TSVoiceConverterDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TSVoiceConverterDemo"; path = Pods_TSVoiceConverterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B532F006AB09697DD508EAC1276CC49E /* TSVoiceConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSVoiceConverter.debug.xcconfig; sourceTree = "<group>"; };
 		B6101F12352D3861EAB48B52A8D814DE /* TSVoiceConverter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TSVoiceConverter.modulemap; sourceTree = "<group>"; };
-		C02A64A6F07AFFCDD8B48C6FBF29DCD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C02A64A6F07AFFCDD8B48C6FBF29DCD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C2FFC91C2216B466C68CF3F947772152 /* TSVoiceConverterHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSVoiceConverterHeaders.h; path = Sources/TSVoiceConverterHeaders.h; sourceTree = "<group>"; };
 		CD9788764723C21441C89BEDBEB571FB /* Pods-TSVoiceConverterDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSVoiceConverterDemo.modulemap"; sourceTree = "<group>"; };
-		DBC210F57DF72943F18A041ABC86D4C1 /* TSVoiceConverter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TSVoiceConverter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DBC210F57DF72943F18A041ABC86D4C1 /* TSVoiceConverter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TSVoiceConverter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EAF53BC39E59D2E30C542D515F90E58C /* Pods-TSVoiceConverterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSVoiceConverterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		EEF5AAE9BDE28BE67DDA886FF470531A /* Pods-TSVoiceConverterDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSVoiceConverterDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -319,8 +319,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -438,7 +438,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -507,7 +507,7 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = "";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -537,7 +537,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -599,8 +599,9 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -633,7 +634,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -669,7 +670,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
