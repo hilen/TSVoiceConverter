@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TSVoiceConverter"
-  s.version          = "0.1.7"
+  s.version          = "0.1.8"
   s.summary          = "A Swift VoiceConverter between AMR format and WAV format"
   s.homepage         = "https://github.com/hilen/TSVoiceConverter"
   s.license          = 'MIT'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/hilen/TSVoiceConverter.git", :tag => s.version.to_s }
   s.platform     = :ios, '13.0'
   s.requires_arc = true
-  s.source_files = ['Sources/**/*.{h,mm}','Sources/*.{h,mm}','Sources/TSVoiceConverter.swift']
+  s.source_files = ['Sources/**/*.{h,mm}','Sources/*.{h,mm}','Sources/**/TSVoiceConverter.swift']
   s.vendored_frameworks = "Sources/**/*.xcframework"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 end
