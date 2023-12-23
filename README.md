@@ -28,7 +28,14 @@ Swift 4:
 pod "TSVoiceConverter", '0.1.6'
 ```
 
+Swift 5:
+
+```ruby
+pod "TSVoiceConverter", '0.1.7'
+```
+
 ## Compile
+
 [Here is the opencore-amr source file](https://sourceforge.net/projects/opencore-amr/?source=typ_redirect), download the source code, run `Compile/build.sh`
 
 ## License
