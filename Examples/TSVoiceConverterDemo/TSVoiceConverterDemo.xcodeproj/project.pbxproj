@@ -185,7 +185,7 @@
 					};
 					AE2F1BE21CAAE26C00D77534 = {
 						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1500;
 						TestTargetID = AE2F1BCE1CAAE26C00D77534;
 					};
 				};
